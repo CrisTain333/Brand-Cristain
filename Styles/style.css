@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.carousel-item h5 {
+    font-family: 'Roboto';
+}
+main .row .parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #E8E8E8;
+    height: 100%;
+}
+main .row .parent .child-tow {
+    width: 100%;
+    margin-left: 20px;
+}
+main .row .parent .child-tow h3 {
+    font-family: 'Poppins';
+    font-size: 21px;
+    line-height: 38px;
+    color: #4A4A4A;
+}
+main .row .parent .child-tow p {
+    font-family: 'Poppins';
+}
+.ks{
+    text-align: center;
+}
+
+@media screen and (max-width:668px) {
+    main .row .parent {
+        display: block;
+        width: 100%;
+        align-items: center;
+    }
+    main .row .parent img {
+        width: 100%;
+    }
+    main .row .parent .child-tow p{
+        width:84%;
+    }
+    main .row .parent .child-tow .fw-semibold{
+        font-size: 20px;
+    }
+    main .row .parent .child-tow {
+        padding: 5px;
+    }
+}
