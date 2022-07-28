@@ -26,7 +26,6 @@ main .row .parent .child-tow p {
 .ks{
     text-align: center;
 }
-
 @media screen and (max-width:668px) {
     main .row .parent {
         display: block;
