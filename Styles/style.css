@@ -44,4 +44,12 @@ main .row .parent .child-tow p {
     main .row .parent .child-tow {
         padding: 5px;
     }
+    .companies{
+        display: none;
+    }
+}
+@media screen and (max-width:850px) {
+    .companies{
+        display: none;
+    }
 }
